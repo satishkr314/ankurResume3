@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    /* background-color: rgb(243, 243, 243); */
+    width:25%;
+    /* height: 100vh; */
+}
+/* photo */
+.photo{
+    height: 300px;
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 16rem;
+    height: 17rem;
+    /* background-color: burlywood; */
+    /* border-radius: 50%; */
+
+}
+.image img{
+    width: 90%;
+    height: 100%;
+    /* border-radius: 50%; */
+}
+
+/* profile info */
+.profile-info{
+    width: 100%;
+    height: 500px;
+    /* background-color: rgb(127, 127, 233); */
+    margin-top: 1rem;
+}
+.profile-info .info-icon{
+    font-size: 1.3rem;
+    /* color: black; */
+    width: 100%;
+    
+}
+.profile-info .info-icon i{
+    color: rgb(3, 179, 135);
+    font-size: 1.6rem;
+}
+.margin{
+    margin-top: 2rem;
+}
+.profile-info .info-icon .address{
+    width: 100%;
+    /* background-color: violet; */
+    
+    word-wrap: break-word;
+}
+.profile-info .info-icon .address a{
+    text-decoration: none;
+    color: black;
+}
+
+/* skills */
+.skills{
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+    margin-top: 1rem;
+}
+/* HEADING */
+.heading{
+    /* background-color: blanchedalmond; */
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(3, 179, 135);
+}
+/* BORDER */
+.border{
+    width: 100%;
+    height: 0.2rem;
+    background-color: rgb(0, 204, 204);
+}
+.skill-div{
+    /* background-color: white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skill-div .skill-name{
+    padding: 10px;
+    background-color: rgb(3, 199, 150);
+    margin-top: 1.4rem;
+    margin-left: 0.6rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
+/* language */
+.language{
+    width: 100%;
+    height: 250px;
+    margin-top: 1rem;
+    /* background-color: blue; */
+}
+.language .language-div .language-name{
+    margin-top: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.language .language-div .language-prof{
+    font-size: 1.2rem;
+    color: rgb(3, 179, 135);
+}
+/* achievement */
+.achievement{
+    width: 100%;
+    height: 300px;
+    /* background-color: blue; */
+    margin-top: 1rem;
+}
+.achievement .skill-div{
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+/* right */
+.right{
+    /* background-color: bisque; */
+    width: 70%;
+    
+}
+/* about */
+
+.about{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(3, 179, 135);
+    
+}
+.about .my-name .name{
+    margin-top: 1rem;
+    font-size: 4.5rem;
+    margin-left: 3rem;
+    color: white;
+}
+.about  .name-border{
+    width: 40%;
+    height: 0.3rem;
+    margin-left: 3rem;
+    background-color: white;
+}
+.about .about-para{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+/* education */
+.education{
+    width: 100%;
+    height: 600px;
+    margin-top: 1rem;
+    /* background-color: blue; */
+    margin-bottom: 1rem;
+}
+
+.education-heading{
+    /* background-color: blanchedalmond; */
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(0, 116, 116);
+    margin-left: 3rem;
+}
+/* BORDER */
+.border{
+    width: 100%;
+    height: 0.2rem;
+    background-color: rgb(3, 179, 135);
+}
+.education-div{
+    /* background-color: white; */
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.education-div .degree{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(3, 150, 150);
+}
+.education-div .degree i{
+    font-size: 1rem;
+    color: black;
+}
+.education-div .college{
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+.education-div .project-detail{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    width: 60%;
+}
+.height{
+    height: 300px;
+}
+
+
+
+
+
+
+@media (max-width:800px){
+    /* photo */
+    .photo{
+        height: 110px;
+
+        
+    }
+    .image{
+        width: 6rem;
+        height: 7rem;
+        /* background-color: burlywood; */
+        /* border-radius: 50%; */
+    
+    }
+    .image img{
+        width: 90%;
+        height: 100%;
+        /* border-radius: 50%; */
+    }
+
+    /* .profile-info */
+    .profile-info{
+        width: 100%;
+        height: 250px;
+        /* background-color: rgb(127, 127, 233); */
+        margin-top: 0.7rem;
+    }
+    .profile-info .info-icon{
+        font-size: 0.76rem;
+        
+        
+    }
+    .profile-info .info-icon .git i{
+        color: black;
+    }
+    .profile-info .info-icon .linkedin i{
+        color: rgb(0, 119, 255);
+    }
+    .profile-info .info-icon i{
+        font-size: 1rem;
+    }
+    .margin{
+        margin-top: 0.82rem;
+    }
+    /* skills */
+        .skills{
+        width: 100%;
+        height: 280px;
+        /* background-color: blue; */
+        margin-top: 1rem;
+    }
+    /* HEADING */
+    .heading{
+        /* background-color: blanchedalmond; */
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: rgb(3, 179, 135);
+    }
+    /* BORDER */
+    .border{
+        height: 0.1rem;
+    }
+    
+    .skill-div .skill-name{
+        padding: 6px;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        
+    }
+
+    /* language */
+    .language{
+        width: 100%;
+        height: 180px;
+        margin-top: 1rem;
+        /* background-color: blue; */
+    }
+    .language .language-div .language-name{
+        margin-top: 0.8rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .language .language-div .language-prof{
+        font-size: 0.8rem;
+    }
+    /* achievement */
+    .achievement{
+        width: 100%;
+        height: 130px;
+        /* background-color: blue; */
+        margin-top: 1rem;
+    }
+    .achievement .skill-div{
+        margin-left: 0.4rem;
+        font-weight: 500;
+    }
+
+
+
+
+
+    /* right */
+    .right{
+        /* background-color: bisque; */
+        width: 70%;
+        /* height: 100vh; */
+    }
+    /* about */
+
+    .about{
+        width: 100%;
+        height: 120px;
+        background-color: rgb(3, 179, 135);
+        
+    }
+    .about .my-name .name{
+        margin-top: 0.7rem;
+        font-size: 2.2rem;
+        margin-left: 1.5rem;
+        color: white;
+    }
+    .about  .name-border{
+        width: 40%;
+        height: 0.1rem;
+        margin-left: 1.5rem;
+        background-color: white;
+    }
+    .about .about-para{
+        font-size: 1rem;
+        color: white;
+        margin-left: 1.5rem;
+        margin-top: 0.8rem;
+    }
+
+    /* education */
+    .education{
+        width: 100%;
+        height: 400px;
+        margin-top: 0.8rem;
+        /* background-color: blue; */
+        margin-bottom: 0.8rem;
+    }
+    .edu_height{
+        height: 270px;
+    }
+    .project_height{
+        height: 180px;
+    }
+
+    .education-heading{
+        /* background-color: blanchedalmond; */
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: rgb(0, 117, 53);
+        margin-left: 1.5rem;
+    }
+    /* BORDER */
+    .border{
+        height: 0.1rem;
+    }
+    .education-div{
+        /* background-color: white; */
+        margin-left: 1.5rem;
+        margin-top: 0.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .education-div .degree{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: rgb(3, 179, 135);
+    }
+    .education-div .degree i{
+        font-size: 0.7rem;
+        color: black;
+    }
+    .education-div .college{
+        font-size: 1rem;
+        font-weight: 500;
+
+    }
+    .education-div .session{
+        font-size: 0.7rem;
+    }
+    .education-div .project-detail{
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: black;
+        width: 80%;
+    }
+    .theight{
+        height: 470px;
+        /* background-color: blue; */
+    }
+    .height{
+        height: 235px;
+        /* background-color: blue; */
+    }
+    
+}
